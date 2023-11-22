@@ -60,7 +60,7 @@ const Heading = () => {
             </ul>
 
             <button className="button gap-1 max-lg:hidden">
-               <AiFillApple  size={25} /> Download For Mac
+               <AiFillApple size={25} /> Download For Mac
             </button>
 
             <div className="hidden max-lg:block relative">
@@ -71,7 +71,7 @@ const Heading = () => {
                )}
 
                {toggleMenu && (
-                  <ul className="flex justify-start items-start flex-col py-6 px-8 absolute top-[40px] right-0  min-w-[200px] rounded bg-primary scale-up-center border-none outline-none">
+                  <ul className="flex justify-start items-start flex-col py-6 px-8 absolute top-[40px] right-0  min-w-[160px] rounded bg-primary scale-up-center border-none outline-none ">
                      {navLinks.map((item) => (
                         <li key={item.label} className="pb-1">
                            <a href={item.href} className=" leading-[30px] text-lg text-white ">
