@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+   font-family: Outfit;
+}
+
+.scale-up-center {
+   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+   0% {
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+   }
+   100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+   }
+}
+@keyframes scale-up-center {
+   0% {
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+   }
+   100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+   }
+}
+
+@layer components {
+   .button {
+      @apply bg-brown text-white border-none outline-none cursor-pointer  flex justify-center items-center px-4 py-4 rounded font-semibold;
+   }
+}
+
+@layer utilities {
+   .padding {
+      @apply sm:px-20 px-8 sm:py-24 py-12;
+   }
+   .padding-x {
+      @apply sm:px-20 px-8;
+   }
+   .padding-y {
+      @apply sm:py-24 py-12;
+   }
+
+   .padding-l {
+      @apply sm:pl-16 pl-8;
+   }
+
+   .padding-r {
+      @apply sm:pr-16 pr-8;
+   }
+
+   .padding-t {
+      @apply sm:pt-24 pt-12;
+   }
+
+   .padding-b {
+      @apply sm:pb-24 pb-12;
+   }
+}
+
+@media screen and (max-width: 540px) {
+
+   .hero__btn {
+      font-size: 14px;
+   }
+}
