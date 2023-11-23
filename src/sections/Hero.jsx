@@ -8,7 +8,7 @@ const Hero = () => {
       <section className="bg-secondary flex flex-col w-full items-center justify-center px-0">
          <div>
             <div className="flex justify-center items-center">
-               <h1 className="text-white max-md:text-4xl text-5xl lg:text-[64px] text-center font-bold capitalize leading-normal lg:leading-[80px] lg:max-w-[747px]">
+               <h1 className="text-white max-xs:text-3xl  text-[50px]  lg:text-[64px] text-center font-bold capitalize leading-normal lg:leading-[80px] lg:max-w-[747px] mt-6 xs:mt-12 ">
                   Energize Your Workflow with a Click and a Sip!
                </h1>
             </div>
@@ -24,7 +24,7 @@ const Hero = () => {
 
             <div className="padding-y relative w-full h-full">
                <div className="xl:bg-dashboard xl:w-[1035px] lg:h-[593px] flex justify-center items-center  ">
-                  <img src="./assets/dashboard.svg" alt="dashboard" className="mb-8 max-md:w-[80%] w-full" />
+                  <img src="./assets/dashboard.svg" alt="dashboard" className="mb-8 max-lg:w-[90%]" />
                </div>
                <img src="./assets/Group-74.svg" alt="dashboard" className="absolute top-5 right-0 xl:-right-5 max-lg:hidden" />
 
