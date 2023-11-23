@@ -24,7 +24,7 @@ const Hero = () => {
 
             <div className="padding-y relative w-full h-full">
                <div className="xl:bg-dashboard xl:w-[1035px] lg:h-[593px] flex justify-center items-center  ">
-                  <img src="./assets/dashboard.svg" alt="dashboard" className="mb-8" />
+                  <img src="./assets/dashboard.svg" alt="dashboard" className="mb-8 max-md:w-[80%] w-full" />
                </div>
                <img src="./assets/Group-74.svg" alt="dashboard" className="absolute top-5 right-0 xl:-right-5 max-lg:hidden" />
 
