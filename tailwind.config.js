@@ -16,10 +16,11 @@ export default {
             primary: "#262A2C",
             secondary: "#4A2C2A",
             brown: "#CC9966",
+            // "icon-bg": rgba(255, 255, 255, 0.09),
          },
 
          backgroundImage: {
-            dashboard: "url('assets/Dashboard.png')",
+            dashboard: "url('assets/Dashboard-bg.png')",
          },
       },
    },

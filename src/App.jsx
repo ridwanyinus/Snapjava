@@ -7,11 +7,11 @@ const App = () => (
          <Heading />
       </section>
 
-      <section className="padding bg-secondary  ">
+      <section className="paddind-y padding-b bg-secondary  ">
          <Hero />
       </section>
 
-      <section className="padding">
+      <section className=" bg-secondary ">
          <Features />
       </section>
 
