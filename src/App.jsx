@@ -11,23 +11,23 @@ const App = () => (
          <Hero />
       </section>
 
-      <section className=" bg-secondary w-full ">
+      <section className="bg-secondary w-full">
          <Features />
       </section>
 
-      <section className="padding bg-secondary">
+      <section className="padding bg-secondary  padding-t">
          <Features2 />
       </section>
 
-      <section className="padding">
+      <section className=" bg-secondary">
          <Testimonial />
       </section>
 
-      <section className="padding">
+      <section className="padding-t padding-l padding-r  bg-secondary">
          <CTA />
       </section>
 
-      <section className="padding">
+      <section className="padding-t padding-l padding-r  bg-[#1F0F0E]">
          <Footer />
       </section>
    </main>

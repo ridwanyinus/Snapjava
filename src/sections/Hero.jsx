@@ -8,7 +8,7 @@ const Hero = () => {
       <section className="bg-secondary flex flex-col w-full items-center justify-center px-0">
          <div>
             <div className="flex justify-center items-center">
-               <h1 className="text-white max-xs:text-3xl  text-[50px]  lg:text-[64px] text-center font-bold capitalize leading-normal lg:leading-[80px] lg:max-w-[747px] mt-6 xs:mt-12 ">
+               <h1 className="text-white max-xs:text-3xl  text-[50px]  lg:text-[64px] text-center font-bold capitalize leading-normal lg:leading-[80px] lg:max-w-[747px] mt-8 xs:mt-12 ">
                   Energize Your Workflow with a Click and a Sip!
                </h1>
             </div>

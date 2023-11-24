@@ -4,7 +4,7 @@ import { IoDiamond } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
 const Features = () => {
    return (
-      <section className="rounded-[40px] padding bg-white flex flex-col justify-center items-center w-[100%]">
+      <section id="#Features" className="rounded-[40px] padding bg-white flex flex-col justify-center items-center w-[100%]">
          <h1 className="text-secondary text-center text-3xl leading-[40px] font-semibold">Loved by 10,000+ growing businesses</h1>
          <div className=" grid lg:grid-cols-6 grid-cols-2 sm:grid-cols-3 gap-10 items-center  pt-10 ">
             <img src="./assets/asuna.png" alt="asuna" />
@@ -53,7 +53,7 @@ const Features = () => {
 
                <div className="pt-16 flex justify-center items-center">
                   <button className="button px-8 py-3 text-center">
-                     Learn More <IoIosArrowForward className="mx-1" width={24} hanging={24} />
+                     Learn More <IoIosArrowForward className=" w-[24px] h-[24px]" />
                   </button>
                </div>
             </div>
